@@ -46,6 +46,47 @@
 
 
   <style>
+
+/* Nominations Grid Layout */
+.nominations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nominations-grid-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nominations-grid-item h3 {
+    margin-top: 0;
+}
+
+.nominations-grid-item ul {
+    /* list-style-type: none; */
+    padding: 0;
+}
+
+.nominations-grid-item li {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .nominations-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
     .contact_form7_wrapper iframe {
       border: none;
       min-height: 500px;
@@ -263,6 +304,8 @@
         </div>
         <!-- END REVOLUTION SLIDER -->
       </div>
+
+
       <div class="one withsmallpadding ppb_contact_box " style="text-align:center;margin-top:-300px;">
         <div class="standard_wrapper">
           <div class="page_content_wrapper">
@@ -325,8 +368,8 @@
               <div class="inner_box parallax"
                 style="width:60%;margin:auto;background:#ffffff;border:10px solid #ff2d54;padding:50px;"
                 data-stellar-ratio="1.2">
-                <h2 class="ppb_title" style="color:#000000;">VOTE HERE.</h2>
-                <div class="page_tagline" style="">Let's decide the worthy winners together.</div>
+                <!-- <h2 class="ppb_title" style="color:#000000;">VOTE HERE.</h2>
+                <div class="page_tagline">Let's decide the worthy winners together.</div> -->
                 <div class="contact_form7_wrapper">
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLScKQDzVAmDqr1lrytczhmm7QyvnDwgpydKrQEGQL78Eodet4g/viewform?embedded=true"
@@ -340,6 +383,8 @@
           </div>
         </div>
       </div>
+
+
       <div class="one withsmallpadding ppb_header " style="text-align:left;padding:0px 0 0px 0;margin-top:20px;">
         <div class="standard_wrapper">
           <div class="page_content_wrapper">
@@ -360,6 +405,281 @@
           </div>
         </div>
       </div>
+
+      <div class="one withsmallpadding ppb_header " style="text-align:left;padding:0px 0 0px 0;margin-top:20px;">
+        <div class="standard_wrapper">
+          <div class="page_content_wrapper">
+            <div class="inner">
+              <div style="margin:auto;width:70%">
+                <h2 class="ppb_title" style="color:#000000;;text-align:left;">Nominations</h2>
+                <div class="ppb_header_content">
+                  <p>Here are the nominees for this year's Golden Stars Award across various categories.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="one withsmallpadding ppb_text" style="text-align:left;padding:0px 0 0px 0;">
+          <div class="standard_wrapper">
+            <div class="page_content_wrapper">
+              <div class="nominations-grid">
+                <!-- Footballer of the Year (Female) -->
+                <div class="nominations-grid-item">
+                  <h3>Footballer of the Year (Female)</h3>
+                  <ul>
+                    <li>Christy Ucheibe</li>
+                    <li>Abideen Suliat</li>
+                    <li>Chiamaka Nnadozie</li>
+                    <li>Rasheedat Ajibade</li>
+                    <li>Chinwendu Ihezuo</li>
+                    <li>Monle Oyono</li>
+                  </ul>
+                </div>
+      
+                <!-- Footballer of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Footballer of the Year</h3>
+                  <ul>
+                    <li>Ademola Lookman</li>
+                    <li>Alex Iwobi</li>
+                    <li>Victor Osimhen</li>
+                    <li>Ola Aina</li>
+                    <li>Cyriel Dessers</li>
+                  </ul>
+                </div>
+      
+                <!-- Revelation Player of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Revelation Player of the Year</h3>
+                  <ul>
+                    <li>Itodo Mandela</li>
+                    <li>Chibuike Nwaiwu</li>
+                    <li>Oluwashola Elijah</li>
+                    <li>Christantus Uche</li>
+                    <li>Ehije Ukaki</li>
+                  </ul>
+                </div>
+      
+                <!-- Next Rated Footballer -->
+                <div class="nominations-grid-item">
+                  <h3>Next Rated Footballer</h3>
+                  <ul>
+                    <li>Hafiz Umar Ibrahim</li>
+                    <li>Kparobo Arierhi</li>
+                    <li>Ebenezar Harcourt</li>
+                    <li>Elijah Odede</li>
+                    <li>Daniel Bameyi</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Online TV -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Online TV</h3>
+                  <ul>
+                    <li>Ogidan TV</li>
+                    <li>Yetunde Barnabas TV</li>
+                    <li>Apankufor TV</li>
+                    <li>The Damilola Oni TV</li>
+                    <li>Libra TV</li>
+                    <li>Yoruba Plus</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actor -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actor</h3>
+                  <ul>
+                    <li>Sanusi Izihaq (Apa) – Elegun</li>
+                    <li>Kiki Bakari – Mr Patrick</li>
+                    <li>Lanre Adediwura – Iyebiye</li>
+                    <li>Babatunde Aderinoye – Konge</li>
+                    <li>Jide Awobona – Inspector Jero</li>
+                    <li>Akinola Akano – Ibale</li>
+                    <li>Kiki Bakare – Ibro Ijaya</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Movie (YouTube) -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Movie (YouTube)</h3>
+                  <ul>
+                    <li>Elegun – Sanusi Izihaq (Apa)</li>
+                    <li>Inspector Jero – Jide Awobona</li>
+                    <li>Ibale – Akinola Akano</li>
+                    <li>Ite – Damilola Oni</li>
+                    <li>Ile Odun – Abiodun Jimoh</li>
+                    <li>Ninu Getto – Yetunde Barnabas</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actress -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actress</h3>
+                  <ul>
+                    <li>Oyebade Adebimpe Adedimeji – Iyawo Alhaji</li>
+                    <li>Damilola Oni – Ite</li>
+                    <li>Yetunde Barnabas – Ninu Getto</li>
+                    <li>Anike Amin – Ile Odun</li>
+                    <li>Juliet Jatto – Orin</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actor in Supporting Role -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actor in Supporting Role</h3>
+                  <ul>
+                    <li>Jire Ogunlele – Banjoko</li>
+                    <li>Temitope Iledo – Our School</li>
+                    <li>Feranmi Oyalowo – Morounranti Ayaba</li>
+                    <li>Femi Adekanye – Ibasepo</li>
+                    <li>Taiwo Adeyemi – Iyebiye</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actress in Supporting Role -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actress in Supporting Role</h3>
+                  <ul>
+                    <li>Temitope Aremu – Ibale</li>
+                    <li>Fisayomi Abebi – Ewegbemi</li>
+                    <li>Akindel Ajibola – Jabesi</li>
+                    <li>Bimbo Adebayo – Oja Iro</li>
+                    <li>Adenike Hamzat – Ibasepo</li>
+                    <li>Adebayo Victoria – Celeb Wife</li>
+                  </ul>
+                </div>
+      
+                <!-- Movie Producer of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Movie Producer of the Year</h3>
+                  <ul>
+                    <li>Yetunde Barnabas</li>
+                    <li>Damilola Oni</li>
+                    <li>Abiodun Oni</li>
+                    <li>Sanusi Izihaq (Apa)</li>
+                    <li>Ajayi Elijah (The Apostle)</li>
+                    <li>Mercy Ebosele</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actor (Digital Space / Cinema) -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actor (Digital Space / Cinema)</h3>
+                  <ul>
+                    <li>Stan Nze – Suspicion</li>
+                    <li>Femi Adebayo – Seven Doors</li>
+                    <li>Gideon Okeke – Tokunbo</li>
+                    <li>Lateef Adedimeji – Lisabi</li>
+                    <li>Bucci Franklin – The Weekend</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Actress (Digital Space / Cinema) -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Actress (Digital Space / Cinema)</h3>
+                  <ul>
+                    <li>Uzoamaka Onuoha – Agemo</li>
+                    <li>Bimbo Adeyemo – Miss PJ</li>
+                    <li>Chioma Chukwuka – Seven Doors</li>
+                    <li>Uche Montana – Thinline</li>
+                    <li>Bugbemi Eleye – Farmers Bride</li>
+                  </ul>
+                </div>
+      
+                <!-- Best Nollywood Movie (Digital Space / Cinema) -->
+                <div class="nominations-grid-item">
+                  <h3>Best Nollywood Movie (Digital Space / Cinema)</h3>
+                  <ul>
+                    <li>Freedom Way – Blessing Uzzi</li>
+                    <li>Seven Doors – Femi Adebayo Salami</li>
+                    <li>Suspicion – Tosin Igho</li>
+                    <li>Lisabi – Adebimpe Oyebade & Victoria Akujobi</li>
+                    <li>House of Gaa – BAP Productions</li>
+                  </ul>
+                </div>
+      
+                <!-- Entrepreneur of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Entrepreneur of the Year</h3>
+                  <ul>
+                    <li>Stanley Ikechukwu Afunwa (Mobile City)</li>
+                    <li>Amb Dr. (Prince) Adewale Adedeji (Walls Auto)</li>
+                    <li>Fure Eviosekwofa (Furex)</li>
+                    <li>Hon. Chief Adebolu Hameed Adeniyi (Sekere of Lagos)</li>
+                    <li>Chidebube Chris Frank</li>
+                  </ul>
+                </div>
+      
+                <!-- Artist of the Year (Diaspora) -->
+                <div class="nominations-grid-item">
+                  <h3>Artist of the Year (Diaspora)</h3>
+                  <ul>
+                    <li>Dolapo The Vibe</li>
+                    <li>Great Adamz</li>
+                    <li>Rebecca Winter</li>
+                    <li>Rosemary Alaba</li>
+                    <li>Dolly P</li>
+                  </ul>
+                </div>
+      
+                <!-- Revelation Artist of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Revelation Artist of the Year</h3>
+                  <ul>
+                    <li>Shoday</li>
+                    <li>Kunmie</li>
+                    <li>Fido</li>
+                    <li>Ayo Maff</li>
+                    <li>Fola</li>
+                  </ul>
+                </div>
+      
+                <!-- Song of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Song of the Year</h3>
+                  <ul>
+                    <li>Joy is Coming – Fido</li>
+                    <li>Ozeba – Rema</li>
+                    <li>Laho – Shallipopi</li>
+                    <li>Shaolin – Seyi Vibez</li>
+                    <li>MMS – Asake ft Wizkid</li>
+                    <li>Arike – Kunmie</li>
+                  </ul>
+                </div>
+      
+                <!-- Artist of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>Artist of the Year</h3>
+                  <ul>
+                    <li>Rema</li>
+                    <li>Burna Boy</li>
+                    <li>Ayra Starr</li>
+                    <li>Davido</li>
+                    <li>Asake</li>
+                  </ul>
+                </div>
+      
+                <!-- YouTube Influencer of the Year -->
+                <div class="nominations-grid-item">
+                  <h3>YouTube Influencer of the Year</h3>
+                  <ul>
+                    <li>Nons Miraj</li>
+                    <li>Shank Comics</li>
+                    <li>Taaooma</li>
+                    <li>Korty</li>
+                    <li>Tayo Aina</li>
+                    <li>Soso</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+
+
+
       <div class="one withsmallpadding ppb_text" style="text-align:left;padding:0px 0 0px 0;">
         <div class="standard_wrapper">
           <div class="page_content_wrapper">
@@ -400,1150 +720,6 @@
     </div>
   </div>
 
-
-  <!-- <div class="one withsmallpadding ppb_header "
-    style="text-align:center;padding:0px 0 0px 0;margin-top:40px;margin-bottom:20px;background-color:#ffffff;color:#000000;">
-    <div class="standard_wrapper">
-      <div class="page_content_wrapper">
-        <div class="inner">
-          <div style="margin:auto;width:100%">
-            <h2 class="ppb_title" style=";text-align:center;">Conference Schedule</h2>
-            <div class="page_tagline" style="color:#000000;;text-align:center;">This is sample of page
-              tagline and you can set it up using page option</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="ppb_session_tab one withsmallpadding " style="background:#ffffff;">
-    <div class="standard_wrapper">
-      <div style="margin:auto;width:100%">
-        <ul id="session_filter_15737196041480507473" class="session_filters">
-          <li>
-            <a class="themelink active" href="javascript:;" data-filter="" title="All Topics">All Topics</a>
-          </li>
-          <li>
-            <a class="themelink" href="javascript:;" data-filter="business" title="Business">Business</a>
-          </li>
-          <li>
-            <a class="themelink" href="javascript:;" data-filter="engineering" title="Engineering">Engineering</a>
-          </li>
-          <li>
-            <a class="themelink" href="javascript:;" data-filter="growth" title="Growth">Growth</a>
-          </li>
-          <li>
-            <a class="themelink" href="javascript:;" data-filter="platform" title="Platform">Platform</a>
-          </li>
-        </ul><a href="javascript:;" class="themelink session_expand_all do_expand themeborder"
-          id="session_expand_15737196041480507473">Expand All +</a>
-        <div id="15737196041480507473">
-          <ul class="scheduleday_wrapper tab">
-            <li data-tab="day-1" class="scheduleday_title active">
-              <div class="scheduleday_title_content">
-                <h4 style="color:;">Day 1</h4>
-                <div class="scheduleday_desc" style="color:;">July 23, 2017</div>
-              </div>
-              <br class="clear" />
-            </li>
-            <li data-tab="day-2" class="scheduleday_title ">
-              <div class="scheduleday_title_content">
-                <h4 style="color:;">Day 2</h4>
-                <div class="scheduleday_desc" style="color:;">July 24, 2017</div>
-              </div>
-              <br class="clear" />
-            </li>
-            <li data-tab="day-3" class="scheduleday_title ">
-              <div class="scheduleday_title_content">
-                <h4 style="color:;">Day 3</h4>
-                <div class="scheduleday_desc" style="color:;">July 25, 2017</div>
-              </div>
-              <br class="clear" />
-            </li>
-            <li data-tab="day-4" class="scheduleday_title ">
-              <div class="scheduleday_title_content">
-                <h4 style="color:;">Day 4</h4>
-                <div class="scheduleday_desc" style="color:;">July 26, 2017</div>
-              </div>
-              <br class="clear" />
-            </li>
-          </ul>
-          <ul id="day-1" class="scheduleday_wrapper themeborder tab_content">
-            <li class="themeborder business engineering growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_227">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211048-150x150.jpg"
-                    alt="Kevin Chase" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00</div>
-                  <div class="session_title">
-                    <h6>Grand Opening</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Kevin
-                        Chase</a></strong>&nbsp;Chairman Tesla</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_227" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00&nbsp;-&nbsp;09:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_229">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-241734-150x150.jpg"
-                    alt="Jeff Robins" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00</div>
-                  <div class="session_title">
-                    <h6>The Modern Engineering Methods</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Jeff
-                        Robins</a></strong>&nbsp;Partner Startup</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_229" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00&nbsp;-&nbsp;10:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_235">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:00</div>
-                  <div class="session_title">
-                    <h6>Coffee Break</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_234">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-289704-150x150.jpg"
-                    alt="Danielle Ahn" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30</div>
-                  <div class="session_title">
-                    <h6>Evolution of User Experience</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Danielle
-                        Ahn</a></strong>&nbsp;Co-founder Zipcar&nbsp;,&nbsp;<strong><a href="#">Piera
-                        Mcclure</a></strong>&nbsp;Creative Director Slack</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_234" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30&nbsp;-&nbsp;12:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_236">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-285171-150x150.jpg"
-                    alt="Piera Mcclure" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00</div>
-                  <div class="session_title">
-                    <h6>Building Gov as a Service</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Piera
-                        Mcclure</a></strong>&nbsp;Creative Director Slack</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_236" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00&nbsp;-&nbsp;13:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_238">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">13:00</div>
-                  <div class="session_title">
-                    <h6>Lunch time!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_237">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-199943-150x150.jpg"
-                    alt="Robin Johnson" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30</div>
-                  <div class="session_title">
-                    <h6>VR is the new internet of experiences</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Robin
-                        Johnson</a></strong>&nbsp;VP Design Microsoft</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_237" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30&nbsp;-&nbsp;16:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_239">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-295821-150x150.jpg"
-                    alt="Katie Stricker" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00</div>
-                  <div class="session_title">
-                    <h6>From SMS to IPO</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Katie
-                        Stricker</a></strong>&nbsp;Co-founder Blackbox</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_239" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00&nbsp;-&nbsp;17:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_240">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-241734-150x150.jpg"
-                    alt="Jeff Robins" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00</div>
-                  <div class="session_title">
-                    <h6>Growth Marketing</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Jeff
-                        Robins</a></strong>&nbsp;Partner Startup</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_240" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00&nbsp;-&nbsp;18:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_241">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-175696-150x150.jpg"
-                    alt="Luis Gallop" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">18:00</div>
-                  <div class="session_title">
-                    <h6>Responsive Web Applications</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Luis
-                        Gallop</a></strong>&nbsp;Head Engineering Dell</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_241" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">18:00&nbsp;-&nbsp;19:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-          </ul>
-          <ul id="day-2" class="scheduleday_wrapper themeborder tab_content hide">
-            <li class="themeborder engineering growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_244">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211050-150x150.jpg" alt="John Doe" />
-                </div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00</div>
-                  <div class="session_title">
-                    <h6>Autonomous Vehicles</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">John
-                        Doe</a></strong>&nbsp;Founder Envato</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_244" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00&nbsp;-&nbsp;09:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_245">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-25845-150x150.jpg"
-                    alt="Joanna Smith" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00</div>
-                  <div class="session_title">
-                    <h6>Global Innovations in Media</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Joanna
-                        Smith</a></strong>&nbsp;VP Design Apple</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_245" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00&nbsp;-&nbsp;10:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_243">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:00</div>
-                  <div class="session_title">
-                    <h6>Coffee Break</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_246">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-289704-150x150.jpg"
-                    alt="Danielle Ahn" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30</div>
-                  <div class="session_title">
-                    <h6>Value and Building Blocks</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Danielle
-                        Ahn</a></strong>&nbsp;Co-founder Zipcar</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_246" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30&nbsp;-&nbsp;11:30</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_247">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-241734-150x150.jpg"
-                    alt="Jeff Robins" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">11:30</div>
-                  <div class="session_title">
-                    <h6>Be the black sheep</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Jeff
-                        Robins</a></strong>&nbsp;Partner Startup</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_247" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">11:30&nbsp;-&nbsp;13:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_248">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">13:00</div>
-                  <div class="session_title">
-                    <h6>Lunch Time!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_249">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-69212-150x150.jpg"
-                    alt="Espen Brunberg" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30</div>
-                  <div class="session_title">
-                    <h6>The Digital Economy</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Espen
-                        Brunberg</a></strong>&nbsp;Web Technologist</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_249" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30&nbsp;-&nbsp;16:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_250">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-25845-150x150.jpg"
-                    alt="Joanna Smith" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00</div>
-                  <div class="session_title">
-                    <h6>Connected Vehicles</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Joanna
-                        Smith</a></strong>&nbsp;VP Design Apple</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_250" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00&nbsp;-&nbsp;17:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_251">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-285171-150x150.jpg"
-                    alt="Piera Mcclure" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00</div>
-                  <div class="session_title">
-                    <h6>Building Positive Engagements</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Piera
-                        Mcclure</a></strong>&nbsp;Creative Director Slack</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_251" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00&nbsp;-&nbsp;18:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave.</div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_254">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211048-150x150.jpg"
-                    alt="Kevin Chase" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00</div>
-                  <div class="session_title">
-                    <h6>Big Data Talks</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Kevin
-                        Chase</a></strong>&nbsp;Chairman Tesla</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_254" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">17:00&nbsp;-&nbsp;18:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_255">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">18:00</div>
-                  <div class="session_title">
-                    <h6>After Party!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-          </ul>
-          <ul id="day-3" class="scheduleday_wrapper themeborder tab_content hide">
-            <li class="themeborder engineering ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_253">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-199943-150x150.jpg"
-                    alt="Robin Johnson" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00</div>
-                  <div class="session_title">
-                    <h6>We love icons</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Robin
-                        Johnson</a></strong>&nbsp;VP Design Microsoft</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_253" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00&nbsp;-&nbsp;09:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_257">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-285171-150x150.jpg"
-                    alt="Piera Mcclure" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00</div>
-                  <div class="session_title">
-                    <h6>Design Thinking for Innovation</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Piera
-                        Mcclure</a></strong>&nbsp;Creative Director Slack</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_257" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00&nbsp;-&nbsp;10:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_256">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:00</div>
-                  <div class="session_title">
-                    <h6>Coffee Break</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_259">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211048-150x150.jpg"
-                    alt="Kevin Chase" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30</div>
-                  <div class="session_title">
-                    <h6>Disruption at the network Edge</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Kevin
-                        Chase</a></strong>&nbsp;Chairman Tesla&nbsp;,&nbsp;<strong><a href="#">Luis
-                        Gallop</a></strong>&nbsp;Head Engineering Dell</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_259" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30&nbsp;-&nbsp;12:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_258">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-295821-150x150.jpg"
-                    alt="Katie Stricker" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00</div>
-                  <div class="session_title">
-                    <h6>The Fourth Industrial Revolution</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Katie
-                        Stricker</a></strong>&nbsp;Co-founder Blackbox</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_258" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00&nbsp;-&nbsp;13:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_260">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">13:00</div>
-                  <div class="session_title">
-                    <h6>Lunch Time!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_261">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211050-150x150.jpg" alt="John Doe" />
-                </div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30</div>
-                  <div class="session_title">
-                    <h6>AR/VR Software and Platform</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">John
-                        Doe</a></strong>&nbsp;Founder Envato</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_261" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30&nbsp;-&nbsp;16:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business engineering growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_262">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-289704-150x150.jpg"
-                    alt="Danielle Ahn" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00</div>
-                  <div class="session_title">
-                    <h6>The Startup Pitch Showcase</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Danielle
-                        Ahn</a></strong>&nbsp;Co-founder Zipcar&nbsp;,&nbsp;<strong><a href="#">John
-                        Doe</a></strong>&nbsp;Founder Envato</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_262" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00&nbsp;-&nbsp;18:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_263">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">18:00</div>
-                  <div class="session_title">
-                    <h6>After Party!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-          </ul>
-          <ul id="day-4" class="scheduleday_wrapper themeborder tab_content hide">
-            <li class="themeborder business growth ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_265">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-241734-150x150.jpg"
-                    alt="Jeff Robins" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00</div>
-                  <div class="session_title">
-                    <h6>Achieving Sustainable Develoment</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Jeff
-                        Robins</a></strong>&nbsp;Partner Startup</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_265" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">08:00&nbsp;-&nbsp;09:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_268">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-211048-150x150.jpg"
-                    alt="Kevin Chase" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00</div>
-                  <div class="session_title">
-                    <h6>Digital Enterprise</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Kevin
-                        Chase</a></strong>&nbsp;Chairman Tesla</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_268" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">09:00&nbsp;-&nbsp;10:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_267">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:00</div>
-                  <div class="session_title">
-                    <h6>Coffee Break</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_266">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-285171-150x150.jpg"
-                    alt="Piera Mcclure" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30</div>
-                  <div class="session_title">
-                    <h6>Future of Messaging</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Piera
-                        Mcclure</a></strong>&nbsp;Creative Director Slack</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_266" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">10:30&nbsp;-&nbsp;12:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder engineering growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_269">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-69212-150x150.jpg"
-                    alt="Espen Brunberg" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00</div>
-                  <div class="session_title">
-                    <h6>Data Privacy and Opportunity</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Espen
-                        Brunberg</a></strong>&nbsp;Web Technologist</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_269" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">12:00&nbsp;-&nbsp;13:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Engineering</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_270">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">13:00</div>
-                  <div class="session_title">
-                    <h6>Lunch Time!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_271">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-295821-150x150.jpg"
-                    alt="Katie Stricker" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30</div>
-                  <div class="session_title">
-                    <h6>Disruption the Marketplace</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Katie
-                        Stricker</a></strong>&nbsp;Co-founder Blackbox</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_271" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">14:30&nbsp;-&nbsp;16:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder business growth platform ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_272">
-                <div class="session_speaker_thumb"><img src="upload/pexels-photo-175696-150x150.jpg"
-                    alt="Luis Gallop" /></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00</div>
-                  <div class="session_title">
-                    <h6>The Sharing Economy</h6>
-                  </div>
-                  <div class="session_speakers">By&nbsp;<strong><a href="#">Luis
-                        Gallop</a></strong>&nbsp;Head Engineering Dell</div>
-                </div>
-                <br class="clear" />
-              </div>
-              <div id="excerpt_272" class="session_content_extend hide session_content_wrapper">
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">16:00&nbsp;-&nbsp;18:00</div>
-                  <div class="session_excerpt">Meh synth Schlitz, tempor duis single-origin coffee ea
-                    next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-                    PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth
-                    art party deep v chillwave. </div>
-                  <div class="session_title_list"><span class="ti-bookmark"></span>
-                    <div class="session_title_item">Business</div>
-                    <div class="session_title_item">Growth</div>
-                    <div class="session_title_item">Platform</div>
-                  </div>
-                  <div class="session_location themeborder">
-                    <div class="session_location_label skin_color">Where</div>
-                    <div class="session_location_content">Hall 1, Building A</div>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-            <li class="themeborder ">
-              <div class="session_content_wrapper expandable" data-expandid="excerpt_273">
-                <div class="session_speaker_icon"><span class="ti-timer"></span></div>
-                <div class="session_content has_speaker_thumb">
-                  <div class="session_start_time">18:00</div>
-                  <div class="session_title">
-                    <h6>Closing Event and After Party!</h6>
-                  </div>
-                </div>
-                <br class="clear" />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <div class="one withsmallpadding ppb_countdown_image parallax withbg "
     style="background-image:url(media/banner2.png);background-position: center top;text-align:center;padding:100px 0 100px 0;color:#ffffff;">
@@ -1663,6 +839,32 @@
         </div>
         <br class="clear" />
       </div>
+      
+
+      <div class="one withsmallpadding ppb_text" style="text-align:left;padding:10px 0;">
+        <div class="standard_wrapper">
+          <div class="page_content_wrapper">
+            <div class="inner">
+
+              <div class="one_third ">
+
+              </div>
+              <div class="one_third ">
+                <a class="button" href="#">View Gallery For More</a>
+
+              </div>
+              <div class="one_third last ">
+              </div>
+              <p>
+                <br class="clear" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   </div>
 

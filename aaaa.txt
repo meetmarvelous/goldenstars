@@ -57,3 +57,24 @@ git branch -M main
 git remote add origin https://github.com/meetmarvelous/goldenstars.git
 git pull origin main --rebase
 git push -u origin main
+
+
+
+
+I want the google form iframe in the box with border:10px solid #ff2d54 to not have a scroll vertical and  horizontal bar. The div should take the full length of the google form iframe with issues
+
+
+one of the function is stopping the gallery from playing on mobile, find it
+
+
+
+gallery.html :
+
+
+custom_plugins.js :
+
+
+custom.js :
+
+
+
