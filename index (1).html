@@ -93,70 +93,6 @@
         height: 500px;
       }
     }
-
-    /* Simple Slider Styles */
-    .simple-slider {
-      width: 100%;
-      max-width: 1200px;
-      /* Increased from 900px for larger screens */
-      margin: 0 auto;
-      position: relative;
-      aspect-ratio: 3/2;
-      /* Maintain 3:2 ratio */
-    }
-
-    .slider-container {
-      width: 100%;
-      height: 100%;
-      position: relative;
-    }
-
-    .slider-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      /* Show full image without cropping */
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    .slider-image.active {
-      opacity: 1;
-    }
-
-    /* Desktop - larger display */
-    @media (min-width: 1200px) {
-      .simple-slider {
-        max-width: 1400px;
-        /* Even larger for big screens */
-      }
-    }
-
-    /* Tablet */
-    @media (max-width: 1199px) and (min-width: 769px) {
-      .simple-slider {
-        max-width: 1000px;
-      }
-    }
-
-    /* Mobile responsiveness */
-    @media (max-width: 768px) {
-      .simple-slider {
-        max-width: 100%;
-        height: auto;
-        min-height: 200px;
-      }
-    }
-
-    /* For very small screens */
-    @media (max-width: 480px) {
-      .simple-slider {
-        aspect-ratio: 3/2;
-      }
-    }
   </style>
 
 </head>
@@ -290,7 +226,7 @@
                 <!-- Begin right corner buttons -->
                 <div id="logo_right_button">
 
-
+                  <a href="#" id="get_ticket" class="button ghost">Get Tickets!</a>
 
                   <!-- Begin side menu -->
                   <a href="javascript:;" id="mobile_nav_icon"><span class="ti-menu"></span></a>
@@ -321,17 +257,32 @@
                 data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                 data-param10="" data-description="">
                 <!-- MAIN IMAGE -->
-                <!-- SIMPLE IMAGE SLIDER -->
-                <div class="simple-slider">
-                  <div class="slider-container">
-                    <img src="media/banner1.jpg" alt="Banner 1" class="slider-image active">
-                    <img src="media/banner2.jpg" alt="Banner 2" class="slider-image">
-                    <img src="media/banner3.jpg" alt="Banner 3" class="slider-image">
-                    <img src="media/banner4.jpg" alt="Banner 4" class="slider-image">
-                  </div>
-                </div>
+                <img src="media/slider.png" alt="" title="26549211695_14ca70baa9_o" width="1440" height="960"
+                  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg"
+                  data-no-retina>
                 <!-- LAYERS -->
 
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption   tp-resizeme" id="slide-3-layer-1" data-x="center" data-hoffset=""
+                  data-y="center" data-voffset="-15" data-width="['auto']" data-height="['auto']" data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"delay":1000,"speed":800,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                  data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                  style="z-index: 5; white-space: nowrap; font-size: 70px; line-height: 22px; font-weight: 600; color: rgba(255,255,255,1);font-family:Poppins;text-transform:uppercase;">
+                  Award </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption   tp-resizeme" id="slide-3-layer-2" data-x="center" data-hoffset=""
+                  data-y="center" data-voffset="-80" data-width="['auto']" data-height="['auto']" data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"delay":1000,"speed":800,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                  data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                  style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 22px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;text-transform:uppercase;">
+                  Golden Stars </div>
+
+                <!-- LAYER NR. 3 -->
               </li>
             </ul>
             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -1149,35 +1100,6 @@
   <script src='js/plugins/custom_clock.js'></script>
   <script src="js/plugins/quform/js/plugins.js"></script>
   <script src="js/plugins/quform/js/scripts.js"></script>
-
-  <script>
-    // Simple Image Slider
-    document.addEventListener('DOMContentLoaded', function () {
-      const images = document.querySelectorAll('.slider-image');
-      let currentIndex = 0;
-
-      function showNextImage() {
-        // Hide current image
-        images[currentIndex].classList.remove('active');
-
-        // Move to next image
-        currentIndex = (currentIndex + 1) % images.length;
-
-        // Show next image
-        images[currentIndex].classList.add('active');
-      }
-
-      // Start the slider (3 seconds interval)
-      setInterval(showNextImage, 3000);
-    });
-  </script>
-
-
-
-
-
-
-
 
   <script>
     /* <![CDATA[ */
